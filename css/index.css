@@ -1,0 +1,416 @@
+@font-face{
+	font-family: 'Lato';
+    src: url(../font/Lato-Regular.ttf);
+}
+@font-face{
+	font-family: 'LatoB';
+    src: url(../font/Lato-Bold.ttf);
+}
+@font-face{
+	font-family: 'LatoI';
+    src: url(../font/Lato-Italic.ttf);
+}
+@font-face{
+	font-family: 'LatoBI';
+    src: url(../font/Lato-BoldItalic.ttf);
+}
+body, html, .page{
+	height: 100%;
+	width: 100%;
+}
+.page{
+	position: relative;
+	box-sizing: border-box;
+}
+body{
+	overflow-x: hidden;
+	font-family: 'Lato';
+	font-size: 18px;
+}
+*{
+	margin:0;
+	padding:0;
+}
+.page1{
+	color: #fff;
+	background:#039ebc;
+	display: table;
+	height: 80%;
+}
+.inner{
+	width: 100%;
+	display: table-cell;
+	text-align: center;
+	position: relative;
+	vertical-align: middle;
+}
+.page1 .inner{
+	opacity:0;
+}
+.content{
+	position: relative;
+	top:70px;
+}
+.main-title{
+	position: absolute;
+	top: 65px;
+	left:150px;
+	width: 350px;
+}
+.main-title h1{
+	font-size:36pt;
+	color: #3a505e;
+}
+.white .main-title h1{
+	color: #fff;
+}
+img.logo{
+	height: 200px;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+.menu{
+	opacity: 0;
+}
+.menu-o{
+	cursor: pointer;
+}
+.spacer{
+	height: 20%;
+}
+.spacer1{
+	background: url(../img/par1.png);
+	background-size: cover;
+	background-position: 0% 0%;
+}
+.spacer2{
+	background: url(../img/par2.png);
+	background-size: cover;
+	background-position: 0% 0%;
+}
+.spacer3{
+	background: url(../img/par3.png);
+	background-size: cover;
+	background-position: 0% 0%;
+}
+.page2{
+	background: #bee5f4;
+	font-size: 16pt;
+	height: 80%;
+	display: table;
+}
+.nav-btn{
+	z-index:2;
+	position: absolute;
+	top:0;
+	left:0;
+	width: 350px;
+    height: 280px;
+}
+.about2{
+	position: absolute;
+	top:52px;
+	left:35px;
+}
+.about2 a{
+	position: absolute;
+	text-decoration:none;
+	font-size: 18pt;
+	color: #3a505e;
+	width: 250px;
+	cursor: pointer;
+}
+.about2 a.selected{
+	color:#049dbd;
+	font-size:24pt;
+}
+.about2 a:hover{
+	color:#049dbd;
+	font-size:24pt;	
+}
+.white .about2 a{
+	color: #fff;
+}
+.white .about2 a.selected{
+	color:#3a505e;
+}
+.white .about2 a:hover{
+	color:#3a505e;
+	font-size:24pt;	
+}
+.nav1{
+	top:-40px;
+	left:165px;
+}
+.nav2{
+	top:40px;
+	left:180px;
+}
+.nav3{
+	top:115px;
+	left:150px;
+}
+.nav4{
+	width: 150px;
+	top:180px;
+	left:-20px;
+}
+.content{
+	display: block;
+	width: 100%;
+}
+.box{
+	text-align: center;
+	width: 20%;
+	display: inline-block;
+	vertical-align: top;
+}
+.box img{
+	display: block;
+	margin: 0 auto;
+	margin-top: 15px;
+}
+.right-box{
+	margin-left: 50px;
+	width:350px;
+}
+.page3{
+	background: #039ebc;
+	height: 80%;
+	display: table;
+	color: #fff;
+	font-family: 'LatoB';
+    font-size: 28pt;
+}
+.page3 .content{
+	width: 60%;
+	text-align: left;
+	margin: 0 auto;
+}
+.content h4{
+	cursor: pointer;
+}
+.page3 .content h4{
+	margin-bottom: 50px;
+}
+h4.selected{
+	color: #3a505e;
+}
+.slider{
+	position: absolute;
+	width: 30%;
+	height: 100%;
+	right: 0;
+	font-size: 20pt;
+	font-family: 'LatoBI';
+	box-sizing: border-box;
+	opacity: 0;
+}
+.slider .info{
+	position: absolute;
+	bottom: 50px;
+	left: 50px;
+	opacity:0;
+}
+.slider ul{
+	width: 300px;
+}
+.slider-inner{
+	height: 100%;
+	width: 100%;
+	background:rgba(0,0,0,0.6);
+}
+.slider1{	
+	background: url(../img/s1.png);
+	background-size: cover;
+}
+.slider2{	
+	background: url(../img/s2.png);
+	background-size: cover;
+}
+.slider2 .info{
+	top:50px;
+}
+.slider3 .info{
+	bottom: 100px;
+}
+.slider3{	
+	background: url(../img/s3.png);
+	background-size: cover;
+}
+.slider4{	
+	background: url(../img/s4.png);
+	background-size: cover;
+}
+.slider.active{
+	opacity:1;
+}
+.page4{
+	background: #bee5f4;
+	height: 100%;
+	display: table;
+}
+.page4 .inner{
+	top: 50px;
+}
+.page4 .content{
+    top: 150px;
+    //padding-left: 100px;
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.page4 .content-inner{
+	width: 2000%;
+	position: relative;
+	left:0;
+	height:100%;
+	text-align: left;
+	//padding-left: 10%;
+	//margin-right: 1.5%;
+}
+.arrow{
+	z-index: 1;
+	position: absolute;
+	height: 50px;
+	width: 50px;
+	cursor: pointer;
+	top:300px;	
+}
+.arrow-left{
+	left:50px;
+	background: url(../img/arrow-l.png) no-repeat;
+	background-size:  contain;
+}
+.arrow-left:hover{
+	left: 40px;
+}
+.arrow-right{
+	right:50px;
+	background: url(../img/arrow-r.png) no-repeat;
+	background-size:  contain;
+}
+.arrow-right:hover{
+	right: 40px;
+}
+.pkg-item{
+	text-align:center;
+	cursor: pointer;
+	color: #bee5f4;
+	font-size: 24pt;
+	display: inline-block;
+	vertical-align: top;
+	height: 900px;
+	width: 300px;
+	margin: 50px;
+}
+.page5 .content{
+	width: 100%;
+	height: 80%;
+}
+.page5 .content-inner{
+	width: 100%;
+	height: 100%;
+}
+.pkg-top{
+	width: 100%;
+	height: 210px;
+	background: #019ebd;
+}
+.pkg-middle{
+	box-sizing: border-box;
+	width: 80%;
+	margin: 0 auto;
+	height: 0px;
+	visibility: hidden;
+	background: #50c7df;
+}
+.pkg-bottom{
+	position: relative;
+	padding-top: 15px;
+	box-sizing: border-box;
+	width: 100%;
+	height: auto;
+	background: #019ebd;
+}
+.pkg-bottom.closed{
+	height: 70px;
+}
+.more-info{
+	box-sizing: border-box;
+	padding: 20px;
+	width: 400px;
+	margin: 0 auto;
+	text-align: left;
+	font-size: 15pt;
+	opacity: 0;
+}
+.pkg-inner{
+	margin: 0 auto;
+	position: relative;
+	top:15px;
+	padding-top: 30px;
+	box-sizing: border-box;
+	height: 180px;
+	width: 180px;
+	border: 15px solid #bee5f4;
+	border-radius: 200px;
+}
+.page5{
+	background: #039ebc;
+	height: 80%;
+	display: table;	
+	color: #fff;
+	font-family: 'Lato';
+}
+.page5 .inner{
+	top: 50px;
+}
+.page5 .content{
+	width: 80%;
+	margin: 0 auto; 
+	height: 60%;
+}
+.page5 .content-inner{
+	position: relative;
+	text-align: left;
+	display: inline-block;
+	vertical-align: top;
+	width: 20%;
+}
+.page5 .fields{	
+	width: 40%;
+	overflow: hidden;
+}
+.page5 .inp{
+	width: 90%;
+	vertical-align: top;
+	font-size: 18pt;	
+}
+textarea.inp{
+	width: 90.5% !important;
+	height: 300px;
+}
+button.cnt-btn{
+	position: absolute;
+	bottom:20px;
+	left: 20px;
+	font-size: 18pt;
+	background: #3a505e;
+	color: #fff;
+	padding:10px;
+	font-family: 'Lato';
+	border:none;
+}
+.footer{
+	height: 20%;
+	background: #bee5f4;
+	box-sizing: border-box;
+	padding-top: 50px;
+	text-align: center;
+}
+img.mobile, h3.mobile{
+	display: none;
+}
